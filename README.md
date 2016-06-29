@@ -4,8 +4,8 @@ A homebrew for convox
 
 # Release
 
-The release process is mainly automated. 
-Once the release has been cut in the main repository, wait for the travis build to attach the binaries.tar.gz to the release.
+The release process is mainly automated.
+Once the release has been cut in the main repository, wait for the travis build to attach the $VERSION.tar.gz to the release.
 
 Then, run `make release VERSION=v0.0.X` in this repository.
 
